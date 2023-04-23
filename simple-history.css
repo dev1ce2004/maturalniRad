@@ -1,0 +1,60 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    background-color: var(--colorDarkBlue);
+}
+
+.burger span {
+    background-color: #ffffff;
+}
+
+#main h3 {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.03em;
+    padding-top: 100px;
+}
+
+#main .container {
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    padding-bottom: 120px;
+}
+
+#main .container h3 {
+
+    color: #FFF;
+}
+
+.history-info {
+    margin: 50px auto 75px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.history-info>p {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.history-info>a {
+    text-decoration: none;
+    color: #052A44;
+}
